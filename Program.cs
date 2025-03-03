@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TPMOD3_103022300009_M_Fathirrizky_S
+namespace TP_Modul_03
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace TPMOD3_103022300009_M_Fathirrizky_S
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainFrame());
         }
     }
 }
